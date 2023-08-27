@@ -26,7 +26,9 @@ src_prepare() {
 }
 
 src_compile() {
+    export GRADLE_USER_HOME="${WORKDIR}/.gradle"
 	gradle assemble || die "Build failed"
+    unset GRADLE_USER_HOME
 }
 
 src_install() {
