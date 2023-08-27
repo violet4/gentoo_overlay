@@ -26,7 +26,8 @@ DEPEND="dev-lang/python:2.7
 
 RDEPEND="${DEPEND}"
 
-S="${WORKDIR}/mcedit2-2.0-alpha"
+S="${WORKDIR}/mcedit2-2.0.0-beta14"
+#mcedit2-2.0-alpha"
 
 src_prepare() {
     default
