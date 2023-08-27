@@ -16,12 +16,13 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="dev-lang/python:2.7
         dev-python/virtualenv
+        dev-python/cython:0.29.36
         dev-python/pyside2
         dev-python/pyopengl
         dev-python/ipython
-        dev-libs/libxslt
-        dev-lang/python
 "
+#        dev-libs/libxslt
+#        dev-lang/python # seems like a duplicate..
 
 RDEPEND="${DEPEND}"
 
