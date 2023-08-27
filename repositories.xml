@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>violet_overlay</name>
+      <description lang="en">Violet's Custom Gentoo Overlay.</description>
+        <homepage>https://github.com/violet4/violet_overlay</homepage>
+        <owner type="person">
+            <name>Violet Eldridge</name>
+            <email>github@violet-mica.com</email>
+        </owner>
+        <source type="git">git://github.com/violet4/violet_overlay.git</source>
+        <feed>https://github.com/violet4/violet_overlay/commits/master.atom</feed>
+  </repo>
+</repositories>

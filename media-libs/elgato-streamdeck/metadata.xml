@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>dean@fourwalledcubicle.com</email>
+    <name>Dean Camera</name>
+  </maintainer>
+  <longdescription lang="en">
+    Python library to control the Elgato Stream Deck
+  </longdescription>
+  <upstream>
+    <remote-id type="github">abcminiuser/python-elgato-streamdeck</remote-id>
+    <bugs-to>https://github.com/abcminiuser/python-elgato-streamdeck/issues</bugs-to>
+  </upstream>
+</pkgmetadata>
