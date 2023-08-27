@@ -14,7 +14,7 @@ KEYWORDS="~amd64"
 
 DEPEND="
 	dev-java/openjdk:17
-	dev-java/gradle
+	dev-java/gradle-bin
 "
 
 RDEPEND="${DEPEND}"
