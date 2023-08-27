@@ -29,10 +29,10 @@ repositories {
 	maven {
 		url "https://plugins.gradle.org/m2/"
 	}
-	mavenCentral()
-	maven {
-		url "https://jitpack.io/"
-	}
+//	mavenCentral()
+//	maven {
+//		url "https://jitpack.io/"
+//	}
 }
 
 dependencies {
