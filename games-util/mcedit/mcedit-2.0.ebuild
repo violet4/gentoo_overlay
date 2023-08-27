@@ -18,7 +18,6 @@ DEPEND="dev-lang/python:2.7
         dev-python/virtualenv
         dev-python/pyside2
         dev-python/pyopengl
-        dev-python/cython
         dev-python/ipython
         dev-libs/libxslt
         dev-lang/python
