@@ -2,6 +2,8 @@ EAPI=7
 
 DESCRIPTION="Powerful all-in-one bot for Twitch streamers"
 HOMEPAGE="https://github.com/crowbartools/Firebot"
+# don't try to use mirrors.. just use SRC_URI
+RESTRICT="mirror"
 SRC_URI="https://github.com/crowbartools/Firebot/archive/refs/tags/v5.58.1.tar.gz"
 LICENSE="GPL-3.0"
 SLOT="0"
