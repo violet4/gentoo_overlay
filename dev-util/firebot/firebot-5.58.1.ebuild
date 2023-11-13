@@ -25,7 +25,7 @@ src_compile() {
     npm install --global --production node-gyp grunt-cli || die "npm install failed"
 
     # Clone the specific tag from the repository
-    git clone --branch "v5.58.1" "git@github.com:crowbartools/Firebot.git" || die "git clone failed"
+    git clone --branch "v5.58.1" "git@github.com:crowbartools/Firebot.git" firebot || die "git clone failed"
     cd Firebot || die "cd to Firebot failed"
 
     # Run npm setup
