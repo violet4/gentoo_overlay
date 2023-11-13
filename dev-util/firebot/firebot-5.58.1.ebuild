@@ -27,7 +27,8 @@ src_compile() {
     # Install global packages
     # https://stackoverflow.com/a/73829204
     # "[node] is trying to resolve by ipv6 first"
-    NODE_OPTIONS="--dns-result-order=ipv4first" npm install --global --omit=dev node-gyp grunt-cli || die "npm install failed"
+    export NODE_OPTIONS="--dns-result-order=ipv4first"
+    npm install --global --omit=dev node-gyp grunt-cli || die "npm install failed"
 
     # Clone the specific tag from the repository
     git clone --branch "v5.58.1" "git@github.com:crowbartools/Firebot.git" || die "git clone failed"
