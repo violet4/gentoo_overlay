@@ -13,7 +13,7 @@ IUSE=""
 RDEPEND="
     dev-vcs/git
     net-libs/nodejs
-    dev-python/python:3.10
+    dev-lang/python:3.9
     x11-libs/libX11
     x11-libs/libXtst
     media-libs/libpng
