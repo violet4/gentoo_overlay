@@ -12,6 +12,7 @@ IUSE=""
 # portage wants lowercase but firebot uses title case Firebot
 S="${WORKDIR}/Firebot-5.58.1"
 
+FEATURES="-network-sandbox"
 
 RDEPEND="
     dev-vcs/git
@@ -25,12 +26,12 @@ DEPEND="${RDEPEND}"
 
 src_compile() {
     # Clone the specific tag from the repository
-    git clone --branch "v5.58.1" "git@github.com:crowbartools/Firebot.git" || die "git clone failed"
-    cd Firebot || die "cd to Firebot failed"
+#    git clone --branch "v5.58.1" "git@github.com:crowbartools/Firebot.git" || die "git clone failed"
+#    cd Firebot || die "cd to Firebot failed"
 
     # https://stackoverflow.com/a/73829204
     # "[node] is trying to resolve by ipv6 first"
-    export NODE_OPTIONS="--dns-result-order=ipv4first"
+#    export NODE_OPTIONS="--dns-result-order=ipv4first"
     npm install --omit=dev node-gyp grunt-cli || die "npm install failed"
 
     # Run npm setup
